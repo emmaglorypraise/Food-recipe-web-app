@@ -144,6 +144,20 @@ footer p a{
   text-decoration: wavy;
 }
 
+.about .about-text {
+  background-color: whitesmoke;
+  color: #f33833;
+  width: 70%;
+  margin: 0 auto;
+  padding: 30px;
+}
+
+.about .about-text p {
+  font-size: 20px;
+  line-height: 30px;
+  text-align: justify;
+}
+
 @media (max-width: 768px) {
   .search-result {
     grid-gap: 10px;
@@ -157,5 +171,10 @@ footer p a{
   .container .initial form input {
     padding: 10px;
     font-size: 2rem;
+  }
+
+  .about .about-text {
+    width: 80%;
+
   }
 }
