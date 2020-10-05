@@ -1,9 +1,18 @@
 const searchForm = document.querySelector('form');
+const input = document.querySelector('input');
 const searchResultDiv = document.querySelector('.search-result');
 const container = document.querySelector('.container');
+const searchIcon = document.querySelector('ion-icon');
 let searchQuery = ' ';
 const APP_ID = '6c88a385';
 const APP_Key = '5b71edf4e2ad33d2c78b7b26e4d6cd73';
+
+searchIcon.addEventListener('click', (e) => {
+  e.preventDefault();
+  searchQuery = input.value;
+  console.log(searchQuery);
+  fetchAPI();
+});
 
 searchForm.addEventListener('submit', (e) => {
   e.preventDefault();
