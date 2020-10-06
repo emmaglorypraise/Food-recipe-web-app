@@ -7,6 +7,7 @@ let searchQuery = ' ';
 const APP_ID = '6c88a385';
 const APP_Key = '5b71edf4e2ad33d2c78b7b26e4d6cd73';
 
+// Event handler for search icon
 searchIcon.addEventListener('click', (e) => {
   e.preventDefault();
   searchQuery = input.value;
@@ -14,6 +15,7 @@ searchIcon.addEventListener('click', (e) => {
   fetchAPI();
 });
 
+// event handler for form activities
 searchForm.addEventListener('submit', (e) => {
   e.preventDefault();
   searchQuery = e.target.querySelector('input').value;

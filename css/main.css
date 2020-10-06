@@ -145,6 +145,7 @@ footer p a{
 }
 
 .about .about-text {
+  border-radius: 8px;
   background-color: whitesmoke;
   color: #f33833;
   width: 70%;
