@@ -158,6 +158,13 @@ footer p a{
   text-align: justify;
 }
 
+/* error message */
+#error {
+  color: #ffffff;
+  text-align: center;
+  font-size: 28px;
+}
+
 @media (max-width: 768px) {
   .search-result {
     grid-gap: 10px;

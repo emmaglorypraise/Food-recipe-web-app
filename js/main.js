@@ -46,4 +46,10 @@ function generateHTML (results){
     `
   })
   searchResultDiv.innerHTML = generatedHTML;
+  
+  // Error Message/////////...
+  if (generatedHTML = " ") {
+    document.querySelector('p').innerHTML = "No recipe found...Try again";
+    console.log("No recipe found...Try again");
+  }
 }
