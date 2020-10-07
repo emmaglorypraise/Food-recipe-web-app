@@ -21,10 +21,14 @@ section {
   align-items: center;
   justify-content: center;
   padding: 100px 0;
-  /* background-color: rgb(26, 26, 27); */
-  background-color: #f33833;
+  background-color: #ffffff;
+  background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.4)), url(../images/brooke-lark-08bOYnH_r_E-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left left;
 }
 .container {
+  
   width: 90%;
   height: auto;
   max-width: 1200px;
@@ -33,14 +37,20 @@ section {
 .brand {
   text-align: center;
   font-size: 4rem;
-  color: white;
-  margin-bottom: 30px;
+  color: #ffffff;
+  margin-bottom: 5px;
+}
+.brand-text{
+  text-align: center;
+  font-size: 1.9rem;
+  color: #ffffff;
+  margin-bottom: 20px;
 }
 form {
   width: 90%;
   max-width: 400px;
   margin: 20px auto;
-  /* background-color: rgb(223, 223, 223); */
+  border: 1px solid #ffffff;
   background-color: white;
   border-radius: 4px;
 }
@@ -52,12 +62,14 @@ form input {
   outline: none;
   font-size: 2rem;
   display: inline-block;
+  color: #F46A21;
 }
 form ion-icon {
   width: 9%;
   font-size: 3rem;
   margin: -10px;
-  color: rgb(75, 75, 75);
+  /* color: rgb(75, 75, 75); */
+  color: #F46A21;
 }
 .search-result {
   margin-top: 50px;
@@ -70,7 +82,7 @@ form ion-icon {
   width: 100%;
   border-radius: 8px;
   /* background-color: rgb(37, 37, 37); */
-  background-color: whitesmoke;
+  background-color: #F46A21;
   padding: 15px;
   overflow: hidden;
 }
@@ -85,7 +97,7 @@ form ion-icon {
   justify-content: space-between;
 }
 .item .title {
-  color: #F46A21;
+  color: #ffffff;
   margin: 20px 10px 0 0;
   font-size: 1.8rem;
   font-weight: 400;
@@ -95,19 +107,19 @@ form ion-icon {
   text-align: center;
   width: 130px;
   padding: 10px 0;
-  background-color: #F46A21;
-  color: white;
+  background-color: #ffffff;
+  color: #F46A21;
   font-size: 1.4rem;
   margin-top: 20px;
   align-self: flex-start;
 }
 .view-button:hover {
-  border: 1px solid #F46A21;
-  background-color: white;
-  color: #F46A21;
+  border: 1px solid #ffffff;
+  background-color: #F46A21;
+  color: white;
 }
 .item-data {
-  color: #F46A21;
+  color: #ffffff;
   display: block;
   margin-top: 10px;
   font-size: 1.4rem;
@@ -130,29 +142,28 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 30px 0 30px;
-  background-color: #f33833;
-  color: whitesmoke;
+  padding: 5px 0 5px;
+  background-color: #edf2f4;
+  color: #F46A21;
   letter-spacing: .2rem;
+  font-size: 20px;
 }
 footer p a{
-  color: whitesmoke;
+  color: #F46A21;
   text-decoration: none;
 }
  footer p a:hover{
   color: #404041;
   text-decoration: wavy;
 }
-
 .about .about-text {
   border-radius: 8px;
-  background-color: whitesmoke;
-  color: #f33833;
+  background-color: #F46A21;
+  color: #ffffff;
   width: 70%;
   margin: 0 auto;
   padding: 30px;
 }
-
 .about .about-text p {
   font-size: 20px;
   line-height: 30px;
@@ -161,9 +172,9 @@ footer p a{
 
 /* error message */
 #error {
-  color: #ffffff;
+  color: #F46A21;
   text-align: center;
-  font-size: 28px;
+  font-size: 39px;
 }
 
 @media (max-width: 768px) {
